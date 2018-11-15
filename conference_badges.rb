@@ -1,5 +1,5 @@
-def badge_maker(name)
-  "Hello, my name is #{name}."
+def badge_maker(guest)
+  "Hello, my name is #{guest}."
 end
 
 
