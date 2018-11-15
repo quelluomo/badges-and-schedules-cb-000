@@ -19,7 +19,7 @@ def assign_rooms(guest)
   rooms
 end
 
-def printer(people)
+def printer(guest)
   batch_badge_creator(name).each do |person|
     puts person
   end
