@@ -24,4 +24,5 @@ def printer(name, guest)
     puts name
   assign_rooms(guest).each do |message|
     puts message
+  end
 end
