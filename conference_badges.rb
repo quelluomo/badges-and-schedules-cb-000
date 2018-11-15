@@ -3,5 +3,5 @@ def batch_badge_creator(name)
   name.each do |guest|
   badge_array << "Hello, my name is #{guest}."
   end
-  badge_array
+
 end
