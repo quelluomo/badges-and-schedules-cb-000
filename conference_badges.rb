@@ -11,10 +11,10 @@ def batch_badge_creator(name)
   badge_array
 end
 
-def assign_rooms(guest)
+def assign_rooms(name)
   rooms = []
-  guest.each_with_index do |guest, room|
-    rooms << "Hello, #{guest}! You'll be assigned to room #{room + 1}!"
+  guest.each_with_index do |name, room|
+    rooms << "Hello, #{name}! You'll be assigned to room #{room + 1}!"
   end
   rooms
 end
